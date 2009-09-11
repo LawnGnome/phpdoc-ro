@@ -1,5 +1,5 @@
 <!-- $Revision$ -->
-<!-- EN-Revision: 276794 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 287860 Maintainer: simionea Status: ready -->
 
 <!--
   Entities for the categorized extension list, so it does not need
@@ -50,7 +50,7 @@ după câteva criterii.</para>'>
 
 <!ENTITY extcat.purpose.compression '<title>Extensii de comprimare</title>'>
 
-<!ENTITY extcat.purpose.calendar '<title>Extensii ce se referă la calendar şi evenimente</title>'>
+<!ENTITY extcat.purpose.calendar '<title>Extensii ce se referă la dată și oră</title>'>
 
 <!ENTITY extcat.purpose.utilspec '<title>Extensii specifice ariei de utilizare</title>'>
 <!ENTITY extcat.purpose.utilspec.nontext '<title>Obţinerea ieşirilor MIME non-textuale</title>'>
