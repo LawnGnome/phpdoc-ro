@@ -1,5 +1,5 @@
 <!-- $Revision$ -->
-<!-- EN-Revision: 288078 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 288465 Maintainer: simionea Status: ready -->
 <!-- Keep 'em sorted -->
 
 <!ENTITY changelog.randomseed '<row><entry>4.2.0</entry><entry>Generatorul de
@@ -1150,6 +1150,9 @@ Imagick a fost compilat cu ImageMagick de versiunea 6.4.3 sau ulterior.'>
 
 <!ENTITY imagick.method.available.0x644 'Această metodă este disponibilă dacă
 Imagick a fost compilat cu ImageMagick de versiunea 6.4.4 sau ulterior.'>
+
+<!ENTITY imagick.method.available.0x645 'Această metodă este disponibilă dacă
+Imagick a fost compilat cu ImageMagick de versiunea 6.4.5 sau ulterior.'>
 
 <!ENTITY imagick.constant.available 'Această constantă este disponibilă dacă
 Imagick a fost compilat cu ImageMagick de versiunea'>
