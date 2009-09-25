@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283841 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 288622 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -94,7 +94,7 @@
        <entry>
         La serializarea unui obiect metodele nu mai sunt pierdute. 
         Vă rugăm să accesaţi
-        <link linkend="language.oop.serialization">Serializarea Obiectelor</link>
+        <link linkend="language.oop5.serialization">Serializarea Obiectelor</link>
         pentru informaţii suplimentare.
        </entry>
       </row>
