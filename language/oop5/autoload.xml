@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: radical Status: ready -->
+<!-- EN-Revision: 289102 Maintainer: radical Status: ready -->
 <!-- CREDITS: simionea -->
  <sect1 xml:id="language.oop5.autoload" xmlns="http://docbook.org/ns/docbook">
   <title>Autoîncărcarea claselor</title>
@@ -94,6 +94,8 @@ Fatal error: Interface 'ITest' not found in ...
     <simplelist>
      <member><function>unserialize</function></member>
      <member><link linkend="unserialize-callback-func">unserialize_callback_func</link></member>
+     <member><function>spl_autoload</function></member>
+     <member><function>spl_autoload_register</function></member>
     </simplelist>
    </para>
   </simplesect>
