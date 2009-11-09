@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288791 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: simionea Status: ready -->
 
 <appendix xml:id="about" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Despre manual</title>
@@ -232,7 +232,7 @@ int strlen ( string $string )
      Ce înseamnă aceasta? in_array() întoarce o valoare
      <link linkend="language.types.boolean">boolean</link>, &true; în cazul
      succesului (dacă <parameter>needle</parameter> a fost găsit în
-     <parameter>haystack</parameter>), sau &false; în cazul eşecului (dacă
+     <parameter>haystack</parameter>),&return.falseforfailure; (dacă
      <parameter>needle</parameter> nu a fost găsit în
      <parameter>haystack</parameter>).  Primul parametru este numit
      <parameter>needle</parameter> şi el poate fi de mai multe
