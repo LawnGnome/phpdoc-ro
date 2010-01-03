@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 292619 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
 <refentry xml:id="function.serialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -118,15 +118,6 @@ if (!odbc_execute($stmt, $sqldata)) {
        <entry>4.0.7</entry>
        <entry>
         Procesul serializării obiectelor a fost corectat.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.0</entry>
-       <entry>
-        La serializarea unui obiect, metodele nu mai sunt pierdute.
-        Vă rugăm să accesaţi
-        <link linkend="language.oop5.serialization">Serializarea obiectelor</link>
-        pentru informaţii suplimentare.
        </entry>
       </row>
      </tbody>

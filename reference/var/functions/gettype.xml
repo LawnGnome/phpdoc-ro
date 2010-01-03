@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 290673 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
 <refentry xml:id="function.gettype" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -138,6 +138,7 @@ string
   <para>
    <simplelist>
     <member><function>settype</function></member>
+    <member><function>get_class</function></member>
     <member><function>is_array</function></member>
     <member><function>is_bool</function></member>
     <member><function>is_float</function></member>
