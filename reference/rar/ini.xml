@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 291570 $ -->
-<!-- EN-Revision: 291570 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 294373 Maintainer: simionea Status: ready -->
 
 <section xml:id="rar.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -18,7 +18,7 @@ sgml-indent-step:1
 sgml-indent-data:t
 indent-tabs-mode:nil
 sgml-parent-document:nil
-sgml-default-dtd-file:"../../../../manual.ced"
+sgml-default-dtd-file:"~/.phpdoc/manual.ced"
 sgml-exposed-tags:nil
 sgml-local-catalogs:nil
 sgml-local-ecat-files:nil
