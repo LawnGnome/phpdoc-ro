@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294085 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 295187 Maintainer: simionea Status: ready -->
 
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>&php.ini; directives</title>
@@ -4034,9 +4034,9 @@ auto_prepend_file=security.php
         Înainte de PHP 5.2.1, pentru a utiliza această directivă, ea trebuia
         să fi fost activată la momentul compilării indicând
         <option role="configure">--enable-memory-limit</option> în linia de
-        configurare. Aceasta era de asemenea necesar pentru a defini
-        funcțiile <function>memory_get_usage</function> și
-        <function>memory_get_peak_usage</function>.
+        configurare. Acest fanion indicat la momentul compilării era de asemenea
+        necesar pentru a defini funcțiile <function>memory_get_usage</function> și
+        <function>memory_get_peak_usage</function> anterior versiunii 5.2.1.
        </para>
 
        &ini.shorthandbytes;
