@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 297477 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
   <refentry xml:id="function.is-int" xmlns="http://docbook.org/ns/docbook">
    <refnamediv>
@@ -56,9 +56,9 @@
 <![CDATA[
 <?php
 if (is_int(23)) {
- echo "este integer\n";
+    echo "este integer\n";
 } else {
- echo "nu este integer\n";
+    echo "nu este integer\n";
 }
 var_dump(is_int(23));
 var_dump(is_int("23"));
