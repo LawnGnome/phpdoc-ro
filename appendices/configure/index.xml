@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 304660 Maintainer: simionea Status: ready -->
 <appendix xml:id="configure" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Opțiunile de configurare</title>
 
@@ -34,19 +34,19 @@
 
   <itemizedlist>
    <listitem>
-    <para>
+    <simpara>
      <link linkend="configure.options.misc">Diverse</link>
-    </para>
+    </simpara>
    </listitem>
    <listitem>
-    <para>
+    <simpara>
      <link linkend="configure.options.php">Comportamentul PHP</link>
-    </para>
+    </simpara>
    </listitem>
    <listitem>
-    <para>
+    <simpara>
      <link linkend="configure.options.servers">Server</link>
-    </para>
+    </simpara>
    </listitem>
   </itemizedlist>
 

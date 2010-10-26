@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 302027 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 304887 Maintainer: simionea Status: ready -->
 
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>&php.ini; directives</title>
@@ -5281,6 +5281,13 @@ include_path=".;c:\php\includes"
          încărcare. Trebuie să aibă drept de înscriere pentru utilizatorul cu
          care rulează PHP. Dacă nu este specificat, PHP va folosi directorul
          implicit al sistemului.
+        </para>
+        <para>
+         Dacă în directorul specificat aici nu este posibilitate de a înscrie,
+         PHP revine la directorul temporar implicit al sistemului. Dacă
+         <link linkend="ini.open-basedir">open_basedir</link> este activat,
+         atunci trebuie permisă înscrierea în directorul temporar de sistem
+         pentru ca încărcarea să se efectueze cu succes.
         </para>
        </listitem>
       </varlistentry>
