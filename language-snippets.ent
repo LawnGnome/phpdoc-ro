@@ -1,5 +1,5 @@
 <!-- $Revision$ -->
-<!-- EN-Revision: 304917 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 305705 Maintainer: simionea Status: ready -->
 <!-- Keep 'em sorted -->
 
 <!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook">
@@ -302,6 +302,8 @@ descris în <link linkend="faq.using.shorthandbytes">acest FAQ</link>.</simpara>
 anterioare, următorul pseudonim dezaprobat poate fi utilizat: '>
 
 <!ENTITY info.function.alias 'Această funcție este pseudonim pentru: '>
+
+<!ENTITY info.method.alias 'Această metodă este pseudonim pentru: '>
 
 <!ENTITY info.function.alias.deprecated '<simpara xmlns="http://docbook.org/ns/docbook">
 Acest pseudonim al funcției este dezaprobat și există numai din motivul
@@ -614,6 +616,9 @@ inserat cu <function xmlns="http://docbook.org/ns/docbook">domnode_append_child
 inserat cu <function xmlns="http://docbook.org/ns/docbook">
 DOMNode->appendChild</function> de exemplu.'>
 
+<!ENTITY dom.allowstatic '<para xmlns="http://docbook.org/ns/docbook">
+Această metodă <emphasis>poate</emphasis> fi apelată în mod static, dar va emite
+o eroare <constant>E_STRICT</constant>.</para>'>
 
 <!-- FileSystem entities -->
 <!ENTITY fs.validfp.all '<para xmlns="http://docbook.org/ns/docbook">
