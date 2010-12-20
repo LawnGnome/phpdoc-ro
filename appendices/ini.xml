@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 306334 Maintainer: simionea Status: ready -->
 
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>&php.ini; directives</title>
@@ -5314,6 +5314,8 @@ include_path=".;c:\php\includes"
        <listitem>
         <para>
          Numărul maxim de fișiere permise de a fi încărcate simultan.
+         Începând cu PHP 5.3.4, câmpurile pentru încărcare necompletate nu sunt
+         luate în considerare la verificarea acestei limite.
         </para>
        </listitem>
        </varlistentry>
