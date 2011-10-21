@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 298760 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 318280 Maintainer: simionea Status: ready -->
 
 <!-- Part titles used mostly in manual.xml itself -->
 <!ENTITY PHPManual                                "Manualul PHP">
@@ -69,6 +69,7 @@
 <!ENTITY InheritedProperties                      "Proprietăți moștenite">
 <!ENTITY Properties                               "Proprietăți">
 <!ENTITY Constants                                "Constante">
+<!ENTITY NotAvailable                             "Nu este disponibil">
 
 <!-- These are used in reference/$extname/reference.xml and other
 supplemental files to mark section titles -->
