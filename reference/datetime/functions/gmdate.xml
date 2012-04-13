@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 311169 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
 <refentry xml:id="function.gmdate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>string</type><methodname>gmdate</methodname>
    <methodparam><type>string</type><parameter>format</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>timestamp</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>timestamp</parameter><initializer>time()</initializer></methodparam>
   </methodsynopsis>
   <para>
    Identică cu funcția <function>date</function> cu excepția că ora întoarsă

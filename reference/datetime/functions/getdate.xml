@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 311354 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
 <refentry xml:id="function.getdate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -161,6 +161,7 @@ Array
    <simplelist>
     <member><function>date</function></member>
     <member><function>idate</function></member>
+    <member><function>localtime</function></member>
     <member><function>time</function></member>
     <member><function>setlocale</function></member>
    </simplelist>
