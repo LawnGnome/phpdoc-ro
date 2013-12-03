@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 288721 Maintainer: simionea Status: ready -->
-<!-- Purpose: basic.other -->
-<!-- Membership: pecl, bundled -->
+<!-- EN-Revision: 331384 Maintainer: simionea Status: ready -->
 
 <book xml:id="book.json" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundled" ?>
  <title>Notarea Obiect JavaScript</title>
  <titleabbrev>JSON</titleabbrev>
 
@@ -17,10 +16,12 @@
    Decodificarea este efectuată de un interpretor bazat pe JSON_checker
    de Douglas Crockford.
   </para>
+  &json.implementation.superset;
  </preface>
 
  &reference.json.setup;
  &reference.json.constants;
+ &reference.json.jsonserializable;
  &reference.json.reference;
 
 </book>
