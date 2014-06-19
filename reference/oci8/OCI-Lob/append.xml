@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 322205 Maintainer: radical Status: ready -->
+<!-- EN-Revision: 331733 Maintainer: radical Status: ready -->
 <refentry xml:id="oci-lob.append" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob::append</refname>
   <refpurpose>Adaugă datele dintr-un obiect de tip LOB în alt obiect de tip LOB</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <methodsynopsis role="oop">
    <type>bool</type><methodname>OCI-Lob::append</methodname>
    <methodparam><type>OCI-Lob</type><parameter>lob_from</parameter></methodparam>
   </methodsynopsis>

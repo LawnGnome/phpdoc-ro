@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 322205 Maintainer: radical Status: ready -->
+<!-- EN-Revision: 331733 Maintainer: radical Status: ready -->
 <refentry xml:id="oci-lob.flush" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob::flush</refname>
   <refpurpose>Golește/scrie zona-tampon LOB pe server</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <methodsynopsis role="oop">
    <type>bool</type><methodname>OCI-Lob::flush</methodname>
    <methodparam choice="opt"><type>int</type><parameter>flag</parameter></methodparam>
   </methodsynopsis>

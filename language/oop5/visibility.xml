@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 311569 Maintainer: radical Status: ready -->
+<!-- EN-Revision: 331736 Maintainer: radical Status: ready -->
 <!-- CREDITS: simionea -->
  <sect1 xml:id="language.oop5.visibility" xmlns="http://docbook.org/ns/docbook">
   <title>Vizibilitatea</title>
@@ -69,8 +69,8 @@ class ClassaMea2 extends ClassaMea
 
 $obj2 = new ClassaMea2();
 echo $obj->membru_public;     // Funcționează
-echo $obj2->membru_private;   // Nedefinit
 echo $obj2->membru_protected; // Eroare fatală
+echo $obj2->membru_private;   // Nedefinit
 $obj2->afiseazaBunaZiua();    // Afișează Eu sunt: Public, Eu sunt: Protected2
 
 ?>
