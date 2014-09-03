@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 298346 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 323642 Maintainer: simionea Status: ready -->
 <section xml:id="var.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -11,10 +11,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Denumire</entry>
-      <entry>Valoare implicită</entry>
-      <entry>Se poate schimba</entry>
-      <entry>Istoric schimbări</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>

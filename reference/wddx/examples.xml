@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 288721 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 310851 Maintainer: simionea Status: ready -->
 
 <chapter xml:id="wddx.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
  <section xml:id="wddx.examples-serialize">
+  <title>Exemple wddx</title>
   <para>
    Toate funcțiile care serializează variabile utilizează primul element din
    array pentru a determina dacă array-ul trebuie serializat într-un array,

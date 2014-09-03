@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
-<!-- Purpose: basic.vartype -->
-<!-- Membership: core -->
+<!-- EN-Revision: 330340 Maintainer: simionea Status: ready -->
 
 <book xml:id="book.var" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="core" ?>
  <title>Manipularea variabilelor</title>
 
  <preface xml:id="intro.var">
