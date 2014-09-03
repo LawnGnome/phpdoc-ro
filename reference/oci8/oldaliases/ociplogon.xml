@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 332170 Maintainer: simionea Status: ready -->
 <refentry xml:id="function.ociplogon" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ociplogon</refname>
@@ -10,9 +10,8 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <simpara>
-   &info.function.alias; <function>oci_pconnect</function>.
-  </simpara>
+  <para>&Alias; <function>oci_pconnect</function></para>
+  &warn.deprecated.alias-5-4-0;
  </refsect1>
 
 </refentry>
