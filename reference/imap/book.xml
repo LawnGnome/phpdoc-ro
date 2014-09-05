@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 289162 Maintainer: simionea Status: ready -->
-<!-- Purpose: remote.mail -->
-<!-- Membership: bundled, external -->
+<!-- EN-Revision: 330340 Maintainer: simionea Status: ready -->
 
 <book xml:id="book.imap" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>IMAP, POP3 și NNTP</title>
  <titleabbrev>IMAP</titleabbrev>
 

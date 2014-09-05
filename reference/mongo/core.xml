@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 328569 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 332991 Maintainer: simionea Status: ready -->
 
 <part xml:id="mongo.core" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -16,5 +16,6 @@
  &reference.mongo.mongodb;
  &reference.mongo.mongocollection;
  &reference.mongo.mongocursor;
+ &reference.mongo.mongocommandcursor;
 
 </part>

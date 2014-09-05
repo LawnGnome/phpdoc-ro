@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 317663 Maintainer: simionea Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.idn-to-unicode">
  <refnamediv>
   <refname>idn_to_unicode</refname>

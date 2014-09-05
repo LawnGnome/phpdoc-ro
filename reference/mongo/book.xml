@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- Membership: pecl -->
 <!-- $Author$ -->
-<!-- EN-Revision: 328518 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 333397 Maintainer: simionea Status: ready -->
 
 <book xml:id="book.mongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <?phpdoc extension-membership="pecl" ?>
- <title>Driver-ul nativ MongoDB</title>
+ <title>MongoDB</title>
  <titleabbrev>Mongo</titleabbrev>
 
  &reference.mongo.setup;
- <!-- &reference.mongo.constants; -->
+ &reference.mongo.constants;
 
  &reference.mongo.manual;
  &reference.mongo.core;
  &reference.mongo.types;
  &reference.mongo.gridfs;
+ &reference.mongo.batch;
  &reference.mongo.misc;
  &reference.mongo.reference;
  &reference.mongo.exceptions;
