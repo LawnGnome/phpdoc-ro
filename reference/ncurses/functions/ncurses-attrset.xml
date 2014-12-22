@@ -3,19 +3,33 @@
 <!-- $Author$ -->
 <!-- EN-Revision: 297028 Maintainer: simionea Status: ready -->
 
-<refentry xml:id="function.ncurses-standend" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.ncurses-attrset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>ncurses_standend</refname>
-  <refpurpose>Stopează utilizarea atributului 'standout'</refpurpose>
+  <refname>ncurses_attrset</refname>
+  <refpurpose>Stabilește atributele date</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>ncurses_standend</methodname>
-   <void/>
+   <type>int</type><methodname>ncurses_attrset</methodname>
+   <methodparam><type>int</type><parameter>attributes</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
   &warn.undocumented.func;
+ </refsect1>
+ <refsect1 role="parameters">
+  &reftitle.parameters;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term><parameter>attributes</parameter></term>
+     <listitem>
+      <para>
+      </para>
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
  </refsect1>
 </refentry>
 
