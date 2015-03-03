@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 330340 Maintainer: zamolxe Status: ready -->
+<!-- EN-Revision: 335996 Maintainer: zamolxe Status: ready -->
 <!-- CREDITS: simionea -->
 
 <book xml:id="book.mysql" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundledexternal"?>
  <title>API originale ale MySQL</title>
- <titleabbrev>Mysql</titleabbrev>
+ <titleabbrev>MySQL (Original)</titleabbrev>
 
  <!-- {{{ preface -->
  <preface xml:id="intro.mysql">
