@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 334306 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 336886 Maintainer: simionea Status: ready -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
  <title>Lisa tipurilor de resurse</title>
  <para>
@@ -1717,7 +1717,7 @@
      <entry>
        <function>OCI-Lob::free</function>
      </entry>
-     <entry>Obiectele lungi Oracle</entry>
+     <entry>Obiectele largi Oracle</entry>
    </row>
    <row>
     <entry>oci8 statement</entry>
