@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 337115 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 338045 Maintainer: simionea Status: ready -->
 
  <book xml:id="book.mongodb" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>MongoDB\Driver</title>
+  <title>Clasele driver-ului MongoDB</title>
   <titleabbrev>MongoDB\Driver</titleabbrev>
 
   &reference.mongodb.mongodb.driver.manager;

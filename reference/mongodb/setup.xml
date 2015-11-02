@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 337115 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 337902 Maintainer: simionea Status: ready -->
 
 <book xml:id="mongodb.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -9,20 +9,23 @@
  <article xml:id="mongodb.requirements">
   &reftitle.required;
   <para>
-
+   Varianta PHP a driver-ului necesită PHP 5.4 sau ulterior.
+  </para>
+  <para>
+   Varianta HHVM a driver-ului necesită HHVM 3.9 sau ulterior.
   </para>
  </article>
 
  &reference.mongodb.configure;
  &reference.mongodb.ini;
-
+<!--
  <article xml:id="mongodb.resources">
   &reftitle.resources;
   <para>
 
   </para>
  </article>
-
+-->
   &reference.mongodb.constants;
 
 </book>
