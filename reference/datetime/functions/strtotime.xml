@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 334621 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 337698 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
 <!-- splitted from ./en/functions/datetime.xml, last change in rev 1.8 -->
+
 <refentry xml:id="function.strtotime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>strtotime</refname>
@@ -218,6 +219,9 @@ if (($timestamp = strtotime($str)) === false) {
     American <literal>m/d/y</literal>; iar dacă separatorul este liniuța
     (<literal>-</literal>) sau punctul (<literal>.</literal>), atunci este
     utilizat formatul European <literal>d-m-y</literal>.
+    Însă dacă anul e furnizat în format cu două cifre și separatorul este liniuța
+    (<literal>-</literal>), atunci șirul cu data va fi interpretat ca
+    <literal>y-m-d</literal>.
    </para>
    <para>
     Pentru a evita o potențială ambiguitate, cel mai bine este de a utiliza date
