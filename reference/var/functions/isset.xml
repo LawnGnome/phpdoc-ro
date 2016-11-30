@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 336715 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 340224 Maintainer: simionea Status: ready -->
 <!-- CREDITS: adiju -->
 <refentry xml:id="function.isset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -62,7 +62,7 @@
   &reftitle.returnvalues;
   <para>
    Întoarce &true; dacă <parameter>var</parameter> există și are o valoare
-   diferită de &null;, &false; în caz contrar.
+   diferită de &null;. &false; în caz contrar.
   </para>
  </refsect1>
 
